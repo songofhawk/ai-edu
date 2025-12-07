@@ -40,7 +40,7 @@ function App() {
   const slideAudio = `${config.basePath}/${currentSlide?.audio}`;
 
   return (
-    <div className="relative h-screen w-screen bg-gray-900 overflow-hidden">
+    <div className="relative h-[100dvh] w-screen bg-gray-900 overflow-hidden">
       <SlideViewer
         src={slideImage}
         alt={`Slide ${currentSlideIndex + 1}`}
