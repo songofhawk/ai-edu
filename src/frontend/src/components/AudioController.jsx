@@ -6,11 +6,20 @@ export function AudioController({ src, isPlaying, onEnded, muted }) {
     useEffect(() => {
         if (audioRef.current) {
             audioRef.current.pause();
+            const playPromise = Promise.resolve();
+
             if (src) {
                 audioRef.current.src = src;
                 audioRef.current.load();
+
                 if (isPlaying) {
-                    audioRef.current.play().catch(e => console.error("Audio play failed", e));
+                    // Wait for animation (500ms) + buffer (100ms)
+                    const timer = setTimeout(() => {
+                        if (audioRef.current) {
+                            audioRef.current.play().catch(e => console.error("Audio play failed", e));
+                        }
+                    }, 1000);
+                    return () => clearTimeout(timer);
                 }
             }
         }
