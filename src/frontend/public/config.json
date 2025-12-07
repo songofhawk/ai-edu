@@ -1,6 +1,6 @@
 {
   "title": "指数函数",
-  "basePath": "/assets/demo",
+  "basePath": "./assets/demo",
   "defaultDelay": 3000,
   "slides": [
     {
