@@ -1,0 +1,27 @@
+{
+  "title": "指数函数",
+  "basePath": "/assets/demo",
+  "slides": [
+    { "id": "01", "image": "Slide_01.png", "audio": "Slide_01.mp3" },
+    { "id": "02", "image": "Slide_02.png", "audio": "Slide_02.mp3" },
+    { "id": "03", "image": "Slide_03.png", "audio": "Slide_03.mp3" },
+    { "id": "04", "image": "Slide_04.png", "audio": "Slide_04.mp3" },
+    { "id": "05", "image": "Slide_05.png", "audio": "Slide_05.mp3" },
+    { "id": "06", "image": "Slide_06.png", "audio": "Slide_06.mp3" },
+    { "id": "07", "image": "Slide_07.png", "audio": "Slide_07.mp3" },
+    { "id": "08", "image": "Slide_08.png", "audio": "Slide_08.mp3" },
+    { "id": "09", "image": "Slide_09.png", "audio": "Slide_09.mp3" },
+    { "id": "10", "image": "Slide_10.png", "audio": "Slide_10.mp3" },
+    { "id": "11", "image": "Slide_11.png", "audio": "Slide_11.mp3" },
+    { "id": "12", "image": "Slide_12.png", "audio": "Slide_12.mp3" },
+    { "id": "13", "image": "Slide_13.png", "audio": "Slide_13.mp3" },
+    { "id": "14", "image": "Slide_14.png", "audio": "Slide_14.mp3" },
+    { "id": "15", "image": "Slide_15.png", "audio": "Slide_15.mp3" },
+    { "id": "16", "image": "Slide_16.png", "audio": "Slide_16.mp3" },
+    { "id": "17", "image": "Slide_17.png", "audio": "Slide_17.mp3" },
+    { "id": "18", "image": "Slide_18.png", "audio": "Slide_18.mp3" },
+    { "id": "19", "image": "Slide_19.png", "audio": "Slide_19.mp3" },
+    { "id": "20", "image": "Slide_20.png", "audio": "Slide_20.mp3" }
+  ],
+  "autoPlay": false
+}
