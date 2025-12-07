@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 
-export function usePresentation(configUrl = '/config.json') {
+export function usePresentation(configUrl = import.meta.env.BASE_URL + 'config.json') {
     const [config, setConfig] = useState(null);
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
